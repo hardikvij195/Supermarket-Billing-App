@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hvtechnologies.supermarketbillingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SuperMarketViewParticularOrders" android:parentActivityName=".SuperMarketViewOrders" android:screenOrientation="portrait"></activity>
+        <activity android:name=".UsersViewParticularOrders" />
+        <activity
+            android:name=".SuperMarketViewOrders"
+            android:parentActivityName=".SuperMarket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserOrderHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Market_View_Orders"
+            android:parentActivityName=".SuperMarket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_View_Item"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuperMarket_View_Items"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Add_Supermarket"
+            android:parentActivityName=".Admin_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Edit_Item"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_New_Item"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuperMarket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Users"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Otp_Login"
+            android:parentActivityName=".ShowPage" />
+        <activity
+            android:name=".Email_Login"
+            android:parentActivityName=".ShowPage" />
+        <activity android:name=".Act1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

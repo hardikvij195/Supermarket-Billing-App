@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558662194172",
+    "firebase_url": "https://supermarket-billing-system.firebaseio.com",
+    "project_id": "supermarket-billing-system",
+    "storage_bucket": "supermarket-billing-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558662194172:android:775b1fcb19fa926f805879",
+        "android_client_info": {
+          "package_name": "com.hvtechnologies.supermarketbillingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558662194172-od6j69j0no68feh1k4jhb7icqgdmui8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hvtechnologies.supermarketbillingsystem",
+            "certificate_hash": "6a5db15e749557314e6166d95e0bbd20c52a9f99"
+          }
+        },
+        {
+          "client_id": "558662194172-fdjmofskcb20vqh4t0vpae40al7aq0rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC44ICZCvYE2cWMDEJLnjCImbKNvX9gFLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558662194172-fdjmofskcb20vqh4t0vpae40al7aq0rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
